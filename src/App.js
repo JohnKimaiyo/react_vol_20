@@ -5,6 +5,7 @@ import Welcome from "./component/Welcome";
 import Hello from "./component/Hello";
 import MyNames from './component/MyNames'
 import Myname from "./component/Myname";
+import Mycount from "./component/Mycount";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <MyNames name="John IT guy" />
       <MyNames name="John Software Engineer" />
       <Myname/>
+      <Mycount/>
     </div>
   );
 }
